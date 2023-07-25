@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ClassComponentWithContext from "./ClassComponentWithContext";
-import FunctionComponentWithContext from "./FunctionComponentWithContext";
+import FunctionalComponentWithContext from "./FunctionalComponentWithContext";
 
 export const ThemeContext = React.createContext();
 
@@ -33,7 +33,7 @@ export default function App() {
             Toggle Theme
           </button>
           <p className="cntr">Toggle Counter = {counter}</p>
-          <FunctionComponentWithContext />
+          <FunctionalComponentWithContext />
           <ClassComponentWithContext />
         </div>
       </ThemeContext.Provider>
