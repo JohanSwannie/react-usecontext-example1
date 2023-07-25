@@ -5,10 +5,26 @@
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: peachpuff;
+}
+
+.App {
+  text-align: center;
+}
+
+button {
+  color: #FFF;
+  background: darkmagenta;
+  width: 15rem;
+  height: 5rem;
+}
+
+.cntr {
+  width: 36%;
+  height: 3rem;
+  line-height: 3;
+  margin-left: 32%;
+  margin-right: 32%;
+  background: #000;
+  color: #FFF;
 }
