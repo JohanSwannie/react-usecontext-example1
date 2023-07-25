@@ -11,14 +11,17 @@ export default function App() {
   function toggleTheme() {
     setDarkTheme((prevDarkTheme) => !prevDarkTheme);
     setCounter((prevCounter) => prevCounter + 1);
+
+    const butterBoy = document.getElementById("butty");
+
     if (!darkTheme) {
       document.body.style.backgroundColor = "navy";
-      document.getElementById("butty").style.backgroundColor = "lightblue";
-      document.getElementById("butty").style.color = "black";
+      butterBoy.style.backgroundColor = "lightblue";
+      butterBoy.style.color = "black";
     } else {
       document.body.style.backgroundColor = "lightseagreen";
-      document.getElementById("butty").style.backgroundColor = "lightgreen";
-      document.getElementById("butty").style.color = "black";
+      butterBoy.style.backgroundColor = "lightgreen";
+      butterBoy.style.color = "black";
     }
   }
 
